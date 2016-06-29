@@ -1,0 +1,54 @@
+Priority,Possibility,Group Number,Statement,Attached Questions
+1,1,7,Measuring Fidelity at Scale,
+1,1,6,"Prepared, engaged, teachers",
+1,4,5,Evaluation and Research,
+1,2,6,Building Connections,
+1,3,6,Implementation,What do meaningful CS experiences look like across K-12 and how do you bring them to all students?
+1,6,3,Professional Development,
+1,4,8,Equity,
+1,4,4,Evaluation/Measurement,How do we reliably and validly measure characteristics and outcomes from bringing CS to all?
+1,6,9,Communication/Onboarding,
+1,6,7,Buy In,
+1,6,7,Benchmarks/Curriculum,To what extent does teacher training impact how CS is implemented in classrooms?
+1,5,5,Defining CS,
+2,2,6,A focus on problem solving,
+2,2,3,K-3,Does every exposure to computing have an impact on career choice?
+2,4,8,Change,
+2,4,2,Curriculum ,"Integration and progression, What are models and examples of curriculum integration and how effective are they? How are educators in different kinds of programs measuring success? When are integration models appropriate? When are the CS focused experiences appropriate?"
+2,5,9,Professional Development,
+2,6,5,Data and Assessment,
+2,8,5,International CS Perspective,
+2,8,3,Equity,Which curricula have largest impacts on URM student engagement (at each grade band)?
+3,0,6,Creating Common Definitions,"Computational Thinking, ""Unit"" of CS - What is it? "
+3,0,4,Sustainability,"What are the impacts of different approaches to bring CS to schools? (embeded vs stand alone, content, learning, PD, college, etc.)"
+3,2,8,Measures,
+3,1,9,Sustainability,
+3,3,5,CS Pedagogy,
+3,4,5,Implementation and Sustainability,
+3,4,9,Curriculum ,
+3,8,2,Ecology,"School, home, AS/ Teachers/NYC Context, What school and district supports are needed?, What kinds of models can be built for supporting teachers, students, schools, homes which take into account local contexts?"
+3,7,1,Curricular Design,What common elements of CS knowledge and skills are critical to scale CS4All?
+4,0,9,Equity and Access,
+4,1,4,Content,"What does 'meaningful CS experience' mean across k-12? how does/will it change over time? repeated exposure, year 1 vs. year 10"
+4,3,5,CS Teacher Knowledge,
+4,7,8,Define Meaningful,
+4,6,1,Teacher PD,What formats of teacher PD do teachers find most helpful in bulding their CS knowledge? What common pedagogical practices in CS are critical to scale CS4All?
+4,4,2,Scalability,"Scalability and development of teacher development and recruitment, What are different models for scaling PD? The benefits and limitations of these models? What are stumbling blocks in scaling up CS4All beyond the ""first responders"""
+4,8,7,Data Collection,To what extent does exposure to CS impact students' future school choices? ES -> MS -> HS -> College
+5,2,7,Sustainability,
+5,3,8,Within City Collaboration,
+6,5,4,Teachers,"How do you get a teacher who teaches CS in every school? Approach to PD, Ongoing support and community, recruitment"
+6,2,3,Scale,"What are the persistant obstacles to CS for all students? For different student groups, and factors supporting these pathway?"
+6,2,1,Equity  ,"What percentage of under-represented population students enroll in APCSP, take the AP exam, and receive a passing score?"
+7,8,7,Teacher Training,"To what exetent does CS4All teacher training result in increased access to CS in NYC schools, diverse schools, under-resourced schools"
+7,7,2,"Starting with students, identities strengths, challenges, interests","In what ways and how does CS connect with student identities, strengths challenges, and interests? What are the outcomes of programs that intentionally draw on strudents backgrounds and interests"
+7,5,9,Research and Theory,
+7,4,5,Inservice Teacher PD,
+7,2,5,Preservice Teacher Education,
+7,2,3,Scale,To what extent have we met the conditions for scalability?
+8,5,2,Supporting Underrepresented Groups/BP,What supports are needed/What are the unique strengths of CS teachers of color? What are the strengths and challenges of different subgroups of students in CS Ed?
+8,4,7,Equity and Access,To what extent does the diversity of teachers trained in CS impact the enrollment/success of minority students
+8,4,4,Students,How does requiring CS influence student participation in future CS experiences
+8,1,3,Pathways,What are the CS Education and Career Pathways for student groups?
+8,1,2,Connection between equity and ideology,What are the most prominent idologies? How are they manifested in pedagogy/curriculum?
+8,1,1,Sustainability,"In 10 years, how institutionalized is CS education at the individual school level? At the district level?"

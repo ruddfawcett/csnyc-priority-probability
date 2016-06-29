@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.chart {
+  width: 800px;
+  height: 400px;
+  margin: 100px auto 20px auto;
+}
+
+body {
+  background-color: white;
+  font-family: "PT Sans", sans-serif;
+}
+
+.postit {
+  width: 800px;
+  margin :0 auto;
+}
+
+h3 {
+  font-weight: normal;
+}
