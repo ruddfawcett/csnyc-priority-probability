@@ -1,6 +1,6 @@
 Group,Category Name,Post It Description,LA Coding
-D,Research and Evaluation Priorities,Research and Evaluation Priorities of DOE/CSNYC,Research and Evaluation
-D,Research and Evaluation Priorities,CSNYC is looking at $40M of outside funding,Research and Evaluation
+D,Research & Evaluation Priorities,Research & Evaluation Priorities of DOE/CSNYC,Research & Evaluation
+D,Research & Evaluation Priorities,CSNYC is looking at $40M of outside funding,Research & Evaluation
 G ,Sustainability and Institutional Change,Finding ways of sustaining the work in the midst of turnover/change in admin and among partners,Sustainability & Scale
 G,Sustainability and Institutional Change,"What are the incentives for those in power (principals) in terms of carrots and sticks, to assure compliance",Sustainability & Scale
 G,Sustainability and Institutional Change,Institutional Change (and the role of networks in that change),Sustainability & Scale
@@ -84,20 +84,20 @@ K,Sustainability,Coherence/Sonsistency/Common across programs,Sustainability & S
 K,Sustainability,Clarity of plan and strategy,Sustainability & Scale
 K,Sustainability,Large Scale Change,Sustainability & Scale
 K,Sustainability ,Change Agents,Sustainability & Scale
-K,Outcomes,"How will this help youth outcomes, especially those from nondominant communities?",Research and Evaluation
-K,Outcomes,70% problem is about implementation,Research and Evaluation
-K,Outcomes,"Numbers! How many youth, how many schools, gives good perspective to the scope of the problem before us",Research and Evaluation
-K,Assessment,Outcome Measures: 40%,Research and Evaluation
-K,Assessment,Depth (learning) vs. Breadth (exposure),Research and Evaluation
-K,Assessment,"Importance of ""exposure"" vs. major choice and career path as goals",Research and Evaluation
-K,Assessment,Methodological codification,Research and Evaluation
-K,Assessment,4 types of outcomes,Research and Evaluation
-K,Assessment,Prioritizing and defining areas to focus research and evaluation efforts (Forbes 2x2 grid),Research and Evaluation
-K,Assessment,"Good Measures (Student, teacher, org, system)",Research and Evaluation
-K,Assessment,Multi-method approaches to measuring student learning at scale,Research and Evaluation
-K,Assessment,Artifact Analysis,Research and Evaluation
-K,Assessment,Artifact Based Assessment,Research and Evaluation
-K,Assessment,"Survey, Validated Measures",Research and Evaluation
+K,Outcomes,"How will this help youth outcomes, especially those from nondominant communities?",Research & Evaluation
+K,Outcomes,70% problem is about implementation,Research & Evaluation
+K,Outcomes,"Numbers! How many youth, how many schools, gives good perspective to the scope of the problem before us",Research & Evaluation
+K,Assessment,Outcome Measures: 40%,Research & Evaluation
+K,Assessment,Depth (learning) vs. Breadth (exposure),Research & Evaluation
+K,Assessment,"Importance of ""exposure"" vs. major choice and career path as goals",Research & Evaluation
+K,Assessment,Methodological codification,Research & Evaluation
+K,Assessment,4 types of outcomes,Research & Evaluation
+K,Assessment,Prioritizing and defining areas to focus Research & Evaluation efforts (Forbes 2x2 grid),Research & Evaluation
+K,Assessment,"Good Measures (Student, teacher, org, system)",Research & Evaluation
+K,Assessment,Multi-method approaches to measuring student learning at scale,Research & Evaluation
+K,Assessment,Artifact Analysis,Research & Evaluation
+K,Assessment,Artifact Based Assessment,Research & Evaluation
+K,Assessment,"Survey, Validated Measures",Research & Evaluation
 M,Sustainability,Academic and social integration of students and teachers in CS,Sustainability & Scale
 M,Sustainability,What is the theory of change underlying this initiative?,Sustainability & Scale
 M,Sustainability,"Theory of change is still developing, what frameworks exist to help us understand?",Sustainability & Scale
@@ -106,18 +106,18 @@ M,Sustainability,School-level autonomy,Sustainability & Scale
 M,Sustainability,School-level ownership of CS education to promote sustainability,Sustainability & Scale
 M,Sustainability,Principal buy in is a factor for school reform implementation,Sustainability & Scale
 M,Sustainability,Providing differentiating supports to meet local school's needs by understanding where strengths of a school are and whare resources are needed.,Sustainability & Scale
-M,Sustainability,"Iterative and collaborative research and evaluation partnerships with CS4All, especially in early years",Sustainability & Scale
+M,Sustainability,"Iterative and collaborative Research & Evaluation partnerships with CS4All, especially in early years",Sustainability & Scale
 M,Sustainability,Providing sufficient infrastructure and support for initiative,Sustainability & Scale
 L,Broad Challenges,What are the failure modes? How bad are they?,Implementation
 L,Broad Challenges,There are tensions between implementation and evaluation ambitions,Implementation
-J,Data,Being able to get at the level of detail needed to understand outcomes,Research and Evaluation
-J,Data,"Using research and evaluation to refine, adjust the initiative",Research and Evaluation
-J,Data,We need more Data,Research and Evaluation
-J,Data,Process is moving forward. What do we need to know now in order to avoid failure?,Research and Evaluation
-J,Data,How do we ensure what we're measuring is relevant and useful for schools? Not measurement for measurement sake,Research and Evaluation
-J,Data,Collect common data indicators across CS programs,Research and Evaluation
-J,Data,"Need to assess what the districts, teachers, and students gain",Research and Evaluation
-J,Data,How many students are taking CS in NYC now?,Research and Evaluation
+J,Data,Being able to get at the level of detail needed to understand outcomes,Research & Evaluation
+J,Data,"Using Research & Evaluation to refine, adjust the initiative",Research & Evaluation
+J,Data,We need more Data,Research & Evaluation
+J,Data,Process is moving forward. What do we need to know now in order to avoid failure?,Research & Evaluation
+J,Data,How do we ensure what we're measuring is relevant and useful for schools? Not measurement for measurement sake,Research & Evaluation
+J,Data,Collect common data indicators across CS programs,Research & Evaluation
+J,Data,"Need to assess what the districts, teachers, and students gain",Research & Evaluation
+J,Data,How many students are taking CS in NYC now?,Research & Evaluation
 K,Teacher Retention,Teacher Retention,Teacher Development
 K,Teacher Retention,Conversation about university teacher ed program and certification process.,Teacher Development
 K,Community,Collaboration,Community
@@ -154,9 +154,9 @@ B,Equity,Broadening participation is key for students and teachers,Equity
 B,Equity,Promoting equity in how CS learning opportunities are distributed,Equity
 B,Equity,"Equity, Pipeline, interest",Equity
 B,Equity,CS4All really means all!,Equity
-H,Measurement,Student outcomes,Research and Evaluation
-H,Measurement,Data Availability,Research and Evaluation
-H,Measurement,Data Volume,Research and Evaluation
+H,Measurement,Student outcomes,Research & Evaluation
+H,Measurement,Data Availability,Research & Evaluation
+H,Measurement,Data Volume,Research & Evaluation
 J,Equity,Making sure under resourced schools don't get underresourced CS,Equity
 J,Equity,All Bouroughs do not equal manhattan,Equity
 I,Nuts/Bolts,Integration of CS on STARS (NYC DOE course system),Implementation
@@ -217,7 +217,7 @@ K,Content,"Need to define ""meaningful"" events",Curriculum
 K,Connection and Influence Nationally,Connection and Influence Nationally,Community
 K,Connection and Influence Nationally,Collaboration and Communication outside city,Community
 K,Connection and Influence Nationally,Cross city learning,Community
-K,Research,IDing where knowledge gaps exist in current research approaches,Research and Evaluation
+K,Research,IDing where knowledge gaps exist in current research approaches,Research & Evaluation
 M,Teachers,"Ensure that PD of teachers includes social issues not just ""cognitive gains"" (eg, interest, identity, belonging)",Teacher Development
 M,Teachers,How to connect to what teachers already teach,Teacher Development
 M,Teachers,Its not just Math and Science teachers teaching CS,Teacher Development
@@ -230,17 +230,17 @@ L,Teachers,Teachers won't participate if they feel unsupported,Teacher Developme
 L,Teachers,Do teachers want this,Teacher Development
 L,Teachers,Teachers from different contents can learn and teach CS,Teacher Development
 L,Teachers,We can't treat teachers as blank slates,Teacher Development
-N,Evaluation,Evaluation/Fidelity,Research and Evaluation
-N,Evaluation,Are CS teachers retained as teachers at the same rates of other K-12 or STEM teachers?,Research and Evaluation
-N,Evaluation,"How are teachers framed, discussed, and described in the discourse of NYC's CS for all initiative",Research and Evaluation
-N,Evaluation,How do teachers integration of CS change over mulitple years and how does PD relate to those changes?,Research and Evaluation
-N,Evaluation,What are teachers beliefs for CS education?,Research and Evaluation
-N,Evaluation,How do teachesr see CS in their school?,Research and Evaluation
-N,Evaluation,"What do young learners define as ""computer science""?",Research and Evaluation
-F,Evaluation/Research,Evaluation vs. Research,Research and Evaluation
-F,Evaluation/Research,Ideas for collaboration around research infrastructure,Research and Evaluation
-C,Research/Evaluation,Research and Evaluation,Research and Evaluation
-C,Research/Evaluation,Research and evaluation to inform design of initiative,Research and Evaluation
+N,Evaluation,Evaluation/Fidelity,Research & Evaluation
+N,Evaluation,Are CS teachers retained as teachers at the same rates of other K-12 or STEM teachers?,Research & Evaluation
+N,Evaluation,"How are teachers framed, discussed, and described in the discourse of NYC's CS for all initiative",Research & Evaluation
+N,Evaluation,How do teachers integration of CS change over mulitple years and how does PD relate to those changes?,Research & Evaluation
+N,Evaluation,What are teachers beliefs for CS education?,Research & Evaluation
+N,Evaluation,How do teachesr see CS in their school?,Research & Evaluation
+N,Evaluation,"What do young learners define as ""computer science""?",Research & Evaluation
+F,Evaluation/Research,Evaluation vs. Research,Research & Evaluation
+F,Evaluation/Research,Ideas for collaboration around research infrastructure,Research & Evaluation
+C,Research/Evaluation,Research & Evaluation,Research & Evaluation
+C,Research/Evaluation,Research & Evaluation to inform design of initiative,Research & Evaluation
 J,Integrating,Integrating CS into other disciplines,Curriculum
 C,Equity,Broadening participants in CS,Equity
 C,Equity,How to support underrepresented groups,Equity
@@ -251,8 +251,8 @@ D,Inservice,"4,775 teachers 100 hours of training",Teacher Development
 D,Inservice,Massive scale of teacher PD,Teacher Development
 D,Inservice,Teacher prep - quality,Teacher Development
 D,Inservice,That social studies teachers are the largest proportion of those who teach CS,Teacher Development
-F,Research/Non-Relevant,CSNYC Program Overview,Research and Evaluation
-F,Research/Non-Relevant,Where does CSTA fit in community of practice and other activities?,Research and Evaluation
+F,Research/Non-Relevant,CSNYC Program Overview,Research & Evaluation
+F,Research/Non-Relevant,Where does CSTA fit in community of practice and other activities?,Research & Evaluation
 C,Implementation,Implementation and Sustainability,Implementation
 C,Implementation,"Curriculum, Bluepring, but local implementation",Implementation
 C,Implementation,How to get beynd the first group of teacher adopters?,Implementation
@@ -265,14 +265,14 @@ F,Pedagogy,What does effective CS teaching look like,Teacher Development
 F,Pedagogy,Where are the teachers to fill the pipeline,Teacher Development
 G,Sustainability,"You need to build a machine for sustainability, not just get it to all by 2026",Sustainability & Scale
 G,Sustainability,How can we assure that CS for All sustained after 2026?,Sustainability & Scale
-G,Assessment,Does teacher PD training translate to measureable student outcomes?,Research and Evaluation
-G,Assessment,How does teacher teaching methods affect students learning of CS?,Research and Evaluation
-G,Assessment,"What processes, structures, and resources are needed to help students extend their ""unit experiences"" to other experiences and interests?",Research and Evaluation
-G,Assessment,"What are the indicators of a ""meaningful high quality"" CS learning experience?",Research and Evaluation
-G,Assessment,How do we measure (short of high-stakes common exam) the efficacy of the infusive CS-in-X class model if every teacher can do anything?,Research and Evaluation
-G,Assessment,Standardizing metrics of success (for teachers and students),Research and Evaluation
-G,Assessment,Is student reasoning of CS influenced by teacher gender?,Research and Evaluation
-G,Assessment,What are the set of proximal and distal student outcomes?,Research and Evaluation
+G,Assessment,Does teacher PD training translate to measureable student outcomes?,Research & Evaluation
+G,Assessment,How does teacher teaching methods affect students learning of CS?,Research & Evaluation
+G,Assessment,"What processes, structures, and resources are needed to help students extend their ""unit experiences"" to other experiences and interests?",Research & Evaluation
+G,Assessment,"What are the indicators of a ""meaningful high quality"" CS learning experience?",Research & Evaluation
+G,Assessment,How do we measure (short of high-stakes common exam) the efficacy of the infusive CS-in-X class model if every teacher can do anything?,Research & Evaluation
+G,Assessment,Standardizing metrics of success (for teachers and students),Research & Evaluation
+G,Assessment,Is student reasoning of CS influenced by teacher gender?,Research & Evaluation
+G,Assessment,What are the set of proximal and distal student outcomes?,Research & Evaluation
 D,Broadening Participation,How to guarantee diversity of TEACHERS,Equity
 D,Broadening Participation,High level of interest is CS among african americans,Equity
 B,Long Term Sustainability,What happens if you have trouble raising the money?,Sustainability & Scale
@@ -289,21 +289,21 @@ B,Unanticipated Problems,Parent/Student interest/Conception optics,Implementatio
 B,Unanticipated Problems,What is the plan for dealing with pushback when results show something not working?,Implementation
 F,Implementation,Tracking the pace of implementation and sustainability,Implementation
 F,Implementation,Building bridge while walking across it (aka flying a plane while constructing),Implementation
-A,Research,Research,Research and Evaluation
-A,Research,Need for CS artifact based assessment,Research and Evaluation
-A,Research,More research needed in K-12 CS education,Research and Evaluation
-A,Research,CSNYC looking for research partners,Research and Evaluation
-A,Research,How can NYC make sure new CS learning and opportunities are available long-term to under-served students?,Research and Evaluation
-A,Research,CS in NY testing taking away from other priorities,Research and Evaluation
-A,Research,Artifact based assessment,Research and Evaluation
+A,Research,Research,Research & Evaluation
+A,Research,Need for CS artifact based assessment,Research & Evaluation
+A,Research,More research needed in K-12 CS education,Research & Evaluation
+A,Research,CSNYC looking for research partners,Research & Evaluation
+A,Research,How can NYC make sure new CS learning and opportunities are available long-term to under-served students?,Research & Evaluation
+A,Research,CS in NY testing taking away from other priorities,Research & Evaluation
+A,Research,Artifact based assessment,Research & Evaluation
 E,Students,Student pathways,Equity
 E,Students,Lack of K-5 CS,Equity
 E,Students,What will student pathways be in 10 years?,Equity
 E,Students,Assessment of student learning,Equity
 E,Students,Understanding preparation for future work in CS = College and Career,Equity
 E,Students,Measuring early activation twoards CS = student interest,Equity
-F,Data,"Data, data, data to evaluate CS10K efforts",Research and Evaluation
-F,Data,Lots of student and teacher data to draw conclusions about CS Ed,Research and Evaluation
+F,Data,"Data, data, data to evaluate CS10K efforts",Research & Evaluation
+F,Data,Lots of student and teacher data to draw conclusions about CS Ed,Research & Evaluation
 A,Scaling,Scaling  ,Sustainability & Scale
 A,Scaling,Need for cross city coordination of CS initiatives and evaluations,Sustainability & Scale
 A,Scaling,NYC interested in understanding institutional change,Sustainability & Scale
@@ -344,18 +344,18 @@ D,Student Retention,Grad Requirements,Implementation
 B,NYC Character,NYC is highly fluid (as well as diverse),Implementation
 B,NYC Character,Building Infrastructure,Implementation
 B,NYC Character,Kids are transient so no graduation requirement,Implementation
-D,Outcomes,Big need for feasible assesments,Research and Evaluation
-D,Outcomes,DOE uses STARS system to measure number of hours of CS taught/# of teachers,Research and Evaluation
-D,Outcomes,Impact on all students,Research and Evaluation
-D,Outcomes,Will it make a difference?,Research and Evaluation
-D,Outcomes,Importance of defining 'meaningful experience' in CS and outcomes,Research and Evaluation
+D,Outcomes,Big need for feasible assesments,Research & Evaluation
+D,Outcomes,DOE uses STARS system to measure number of hours of CS taught/# of teachers,Research & Evaluation
+D,Outcomes,Impact on all students,Research & Evaluation
+D,Outcomes,Will it make a difference?,Research & Evaluation
+D,Outcomes,Importance of defining 'meaningful experience' in CS and outcomes,Research & Evaluation
 A,Sustainability,Sustainability,Sustainability & Scale
 A,Sustainability,Buy-in?,Sustainability & Scale
 A,Sustainability,Fidelity,Sustainability & Scale
 A,Sustainability,Sustaining Initiatives in NYC DOE,Sustainability & Scale
-G,Research/Practice,Seamlessly weaving together research and practice in CS4All,Research and Evaluation
-G,Research/Practice,How might CS4All research and practice be woven together to produce timely insights that support the initiative and deep insigths that can inform other roll outs?,Research and Evaluation
-G,Research/Practice,"How might we circulate, elevate, and build on teacher CS pedagogy expertise?",Research and Evaluation
+G,Research/Practice,Seamlessly weaving together research and practice in CS4All,Research & Evaluation
+G,Research/Practice,How might CS4All research and practice be woven together to produce timely insights that support the initiative and deep insigths that can inform other roll outs?,Research & Evaluation
+G,Research/Practice,"How might we circulate, elevate, and build on teacher CS pedagogy expertise?",Research & Evaluation
 A,Partnerships,Partnerships and Resources,Community
 A ,Partnerships,Private Partnerships,Community
 A,Partnerships,How do we bridge K-12 to 13-16,Community
@@ -393,10 +393,10 @@ E,Content,What constitutes computer science? (as a course),Curriculum
 E,Content,"What ""meaningful CS experience"" means",Curriculum
 E,Content,"Defining what is a ""meaningful"" CS experience",Curriculum
 E,Content,3 meaningful CS experiences for EVERY student,Curriculum
-F,Assessment,Developing measures of student learning outcomes,Research and Evaluation
-F,Assessment,Assessing equity in learning opportunities across and within schools,Research and Evaluation
-F,Assessment,Lack of attention to school context and leadership as an affordance or constraint for implementation of CS4All,Research and Evaluation
-F,Assessment,"Evalution - Gride with students, teachers community by participation and outcomes",Research and Evaluation
+F,Assessment,Developing measures of student learning outcomes,Research & Evaluation
+F,Assessment,Assessing equity in learning opportunities across and within schools,Research & Evaluation
+F,Assessment,Lack of attention to school context and leadership as an affordance or constraint for implementation of CS4All,Research & Evaluation
+F,Assessment,"Evalution - Gride with students, teachers community by participation and outcomes",Research & Evaluation
 C,Ecology,Its about desigining an ecosystem as well as curriculum,Implementation
 C,Ecology ,Thinking about schools and system in addition to teachers and students,Implementation
 C,Ecology,Understanding how goals translate into teacher and student experiences,Implementation
@@ -409,10 +409,10 @@ D,Sustainability,Resources,Sustainability & Scale
 D,Sustainability,Time,Sustainability & Scale
 D,Sustainability,Building all parts to enable CSEd,Sustainability & Scale
 D,Sustainability,Scalability,Sustainability & Scale
-E,Evaluation and Measurement,Evaluation and Measurement,Research and Evaluation
-E,Evaluation and Measurement,Share surveys,Research and Evaluation
-E,Evaluation and Measurement,Need to better understand what data to collect,Research and Evaluation
-E,Evaluation and Measurement,Measurement,Research and Evaluation
+E,Evaluation and Measurement,Evaluation and Measurement,Research & Evaluation
+E,Evaluation and Measurement,Share surveys,Research & Evaluation
+E,Evaluation and Measurement,Need to better understand what data to collect,Research & Evaluation
+E,Evaluation and Measurement,Measurement,Research & Evaluation
 E,All Students,All students  ,Equity
 E,All Students,Very diverse types of CS learning opportunities,Equity
 E,All Students,Equity of opportunities,Equity
