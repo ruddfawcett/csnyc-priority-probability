@@ -6,21 +6,33 @@
     <link rel='stylesheet' href='assets/styles/index.css'>
   </head>
   <body>
-    <div class='chart' id='priority-possibility-graph'></div>
+    <div class='postit-container'>
+      <div class='main'>
+        <div class='wall'></div>
+        <ul class='legend'>
 
-    <div class='postit'>
-      <h1>Group</h1>
-      <h3 class='priority'>Priority: 0</h3>
-      <h3 class='possibility'>Possibility: 0</h3>
-      <br />
-      <h3 class='statement'>Possibility: 0</h3>
-      <h3 class='question'>Possibility: 0</h3>
+        </ul>
+        <div class='information'>
+          <h1></h1>
+          <h3 class='priority'></h3>
+          <h3 class='possibility'></h3>
+          <br />
+          <h3 class='statement'></h3>
+          <h3 class='question'></h3>
+        </div>
+      </div>
+      <div class='sidebar'>
+        <h1 class='category'></h1>
+        <ul class='items'>
+        </ul>
+      </div>
     </div>
 
     <script src='https://code.jquery.com/jquery-2.2.3.min.js' integrity='sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=' crossorigin='anonymous'></script>
     <script src='https://code.highcharts.com/highcharts.js'></script>
     <script src='scripts/js/highcharts-theme.js'></script>
     <script src='scripts/js/highcharts-hover.js'></script>
+    <script src='scripts/js/highcharts-legends.js'></script>
     <script src='scripts/js/priority-possibility-graph.js'></script>
   </body>
 </html>

@@ -3,20 +3,49 @@
   padding: 0;
 }
 
-.chart {
-  width: 800px;
-  height: 400px;
-  margin: 100px auto 20px auto;
+.postit-container {
+  width: 1200px;
+  margin: 20px auto 20px auto;
+}
+
+.postit-container .main {
+  width: 775px;
+  float: left;
+  margin-right: 25px;
+}
+
+.postit-container .main ul.legend {
+  list-style: none;
+}
+
+.postit-container .main ul.legend li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.postit-container .main ul.legend li input {
+  margin-right: 5px;
+}
+
+.postit-container .sidebar {
+  float: left;
+  width: 400px;
+  overflow: scroll;
+  max-height: 600px;
+}
+
+.postit-container .sidebar ul {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.postit-container .sidebar ul li:nth-child(even) {
+  background-color: #EEE;
 }
 
 body {
   background-color: white;
   font-family: "PT Sans", sans-serif;
-}
-
-.postit {
-  width: 800px;
-  margin :0 auto;
 }
 
 h3 {
