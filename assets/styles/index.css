@@ -20,8 +20,20 @@
   padding: 0 40px 20px 0;
 }
 
-.postit-container .main .legends p {
+.postit-container .main .legends {
+  border-bottom: 1px solid #F0F0F0;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.postit-container .main .legends div {
   margin: 10px 0;
+  float: left;
+  width: 50%;
+}
+
+.postit-container .main .legends div p {
+  font-weight: bold;
 }
 
 .postit-container .main ul.legend {
