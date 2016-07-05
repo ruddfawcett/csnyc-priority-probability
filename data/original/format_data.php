@@ -21,8 +21,9 @@
   // [0] => Priority
   // [1] => Possibility
   // [2] => Group Number
-  // [3] => Statement
-  // [4] => Attached Questions
+  // [3] => CSNYC Category
+  // [4] => Statement
+  // [5] => Attached Questions
   function format_data($data) {
     $pretty_data = [];
 
@@ -38,8 +39,9 @@
         'y' => $y_jitter,
         'priority' => $response[0],
         'possibility' => $response[1],
-        'statement' => $response[3],
-        'question' => $response[4]
+        'csnyc_category' => $response[3],
+        'statement' => $response[4],
+        'question' => $response[5]
       ];
 
       $groups[$response[2]][] = $pretty_response;
@@ -49,7 +51,7 @@
 
     // make groups prettier
     // https://github.com/voronianski/oceanic-next-color-scheme#color-palette
-    $colors = ['#', '#EA0B8C','#f15056','#F79520', '#','#8EC640', '#', '#0E76BC', '#'];
+    $colors = ['#EA0B8C', '#896BDD','#F79520','#8EC640', '#7AE63E','#0E76BC', '#EA376F', '#70C5C6', '#FFFFA5'];
     foreach ($groups as $group => $data) {
       $pretty_group = [
         'name' => 'Group '.$group,
