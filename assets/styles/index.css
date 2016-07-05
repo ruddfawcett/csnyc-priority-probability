@@ -14,6 +14,12 @@
   margin-right: 25px;
 }
 
+.postit-container .main .wall {
+  border-right: 1px solid #F0F0F0;
+  border-bottom: 1px solid #F0F0F0;
+  padding: 0 40px 20px 0;
+}
+
 .postit-container .main ul.legend {
   list-style: none;
 }
@@ -34,13 +40,17 @@
   max-height: 600px;
 }
 
-.postit-container .sidebar ul {
+.postit-container .sidebar .items {
   margin-top: 10px;
   list-style: none;
 }
 
+.postit-container .sidebar .items li {
+  padding: 10px;
+}
+
 .postit-container .sidebar ul li:nth-child(even) {
-  background-color: #EEE;
+  background-color: #F0F0F0;
 }
 
 body {
