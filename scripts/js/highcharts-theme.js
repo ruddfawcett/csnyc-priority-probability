@@ -8,7 +8,8 @@ Highcharts.theme = {
   },
   plotOptions: {
     series: {
-      animation: false
+      animation: false,
+      stickyTracking: false
     }
   },
   credits: {
