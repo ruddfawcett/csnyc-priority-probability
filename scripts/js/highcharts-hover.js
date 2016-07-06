@@ -1,7 +1,7 @@
 function showPostIt(point) {
   var $postit = $('.content .sidebar .postit');
 
-  $postit.css('background-color', point.color);
+  $postit.css('background-color', point.pointAttr.hover.fill);
 
   $postit.find('.series').text(point.series.name);
   $postit.find('.possibility').text('Possibility ' + point.possibility);
