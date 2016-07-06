@@ -28,10 +28,6 @@ $(function() {
         },
         point: {
           events: {
-            mouseOver: function() {
-              // showPostIt(this);
-              // showRelated(this);
-            },
             click: function() {
               showPostIt(this);
               showRelated(this);
