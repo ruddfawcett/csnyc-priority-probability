@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .container .main {
-  width: 600px;
+  width: 50%;
   float: left;
   /*margin-right: 25px;*/
   border-right: 1px solid #F0F0F0;
@@ -39,6 +39,7 @@ h1,h2,h3,h4,h5,h6 {
 .container .main .wall {
   height: 90%;
   max-height: 100%;
+  width: 100%;
 }
 
 .container .main .legends {
