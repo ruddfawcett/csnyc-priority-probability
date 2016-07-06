@@ -43,7 +43,7 @@ var setupCategories = function(chart) {
         console.log(point);
         if (point.csnyc_category == categories[$index]) {
           if (checked) {
-            point.update({marker: {radius: 28}});
+            point.update({marker: {radius: 20}});
           }
           else {
             point.update({marker: {radius: 0}});
