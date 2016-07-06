@@ -173,6 +173,12 @@ li input[type='checkbox']:checked + label.gray-5:before {
 li input[type='checkbox']:checked + label.gray-6:before {
   background-color: #333;
 }
+li input[type='checkbox']:checked + label.gray-7:before {
+  background-color: #222;
+}
+li input[type='checkbox']:checked + label.gray-8:before {
+  background-color: #111;
+}
 
 .content .sidebar {
   width: 40%;
