@@ -36,17 +36,45 @@ var setupCategories = function(chart) {
     $index = $(this).data('index');
     var checked = this.checked;
 
-    console.log(chart.series);
-
     $.each(chart.series, function(j, series) {
       $.each(series.points, function(k, point) {
-        console.log(point);
         if (point.csnyc_category == categories[$index]) {
-          if (checked) {
-            point.update({marker: {radius: 20}});
+
+          if ($('input[name=color-by]:checked').data('coloring') === 'category') {
+            if (checked) {
+              point.update({
+                marker: {
+                  radius: 20,
+                  fillColor: colors[point.csnyc_category],
+                  states: {
+                    hover: {
+                        fillColor: colors[point.csnyc_category]
+                    }
+                  }
+                }
+              });
+            }
+            else {
+              point.update({
+                marker: {
+                  radius: 0,
+                  fillColor: colors[point.csnyc_category],
+                  states: {
+                    hover: {
+                        fillColor: colors[point.csnyc_category]
+                    }
+                  }
+                }
+              });
+            }
           }
           else {
-            point.update({marker: {radius: 0}});
+            if (checked) {
+              point.update({marker: {radius: 20}});
+            }
+            else {
+              point.update({marker: {radius: 0}});
+            }
           }
         }
       });

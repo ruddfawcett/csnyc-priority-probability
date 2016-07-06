@@ -13,8 +13,19 @@ var colors = {
 var groupColor = function(chart) {
 
   $('input[name=color-by]').change(function() {
+    $('input[type="checkbox"]').each(function(i, checkbox) {
+      $(checkbox).prop('checked', true);
+    });
+
     if ($(this).data('coloring') === 'group') {
-      console.log(chart);
+      $('.legend.category li label').each(function(i, item) {
+        $(item).addClass('gray-'+i).removeClass('color-'+i);
+      });
+
+      $('.legend.group li label').each(function(i, item) {
+        $(item).addClass('color-'+i).removeClass('gray-'+i);
+      });
+
       $.each(chart.series, function(i, series) {
         $.each(series.points, function(j, point) {
           point.update({
@@ -32,6 +43,14 @@ var groupColor = function(chart) {
     }
 
     if ($(this).data('coloring') === 'category') {
+      $('.legend.category li label').each(function(i, item) {
+        $(item).removeClass('gray-'+i).addClass('color-'+i);
+      });
+
+      $('.legend.group li label').each(function(i, item) {
+        $(item).removeClass('color-'+i).addClass('gray-'+i);
+      });
+
       $.each(chart.series, function(i, series) {
         $.each(series.points, function(j, point) {
           point.update({
