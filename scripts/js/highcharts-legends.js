@@ -28,7 +28,7 @@ var setupCategories = function(chart) {
   $.each(categories, function(i, category) {
     var li = $('<li/>');
     var checkbox = $('<input id="category-'+i+'" data-index="'+i+'" type="checkbox" checked />').appendTo(li);
-    var label = $('<label class="color-'+i+'" for="category-'+i+'"/>').text(categories[i]).appendTo(li);
+    var label = $('<label class="gray-'+i+'" for="category-'+i+'"/>').text(categories[i]).appendTo(li);
     li.appendTo($legend);
   });
 
