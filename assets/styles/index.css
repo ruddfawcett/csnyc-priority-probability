@@ -13,6 +13,7 @@ body {
 html, body {
   height: 100%;
   width: 100%;
+  margin: 0 auto;
 }
 
 h1 {
@@ -23,56 +24,80 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: normal;
 }
 
-.container {
-  width: 100%;
-  height: 100%;
+header {
+  max-width: 100%;
+  background-color: #1b75bc;
+  padding: 24px 40px;
 }
 
-.container .main {
-  width: 50%;
+header h1 {
+  font-size: 25px;
+  color: white;
+}
+
+.content {
+  width: 96%;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.content .about {
+  margin: 40px 0;
+  background-color: #F0F0F0;
+  padding: 30px;
+}
+
+.content .about p {
+  line-height: 22px;
+}
+
+.content .about p + p {
+  margin-top: 20px;
+}
+
+.content .main {
+  width: 60%;
   float: left;
-  /*margin-right: 25px;*/
-  border-right: 1px solid #F0F0F0;
   height: 100%;
 }
 
-.container .main .wall {
-  height: 90%;
+.content .main .wall {
+  height: 70%;
   max-height: 100%;
-  width: 100%;
+  width: 95%;
 }
 
-.container .main .legends {
+.content .main .legends {
   overflow: auto;
   margin-bottom: 10px;
-  /*display: none;*/
 }
 
-.container .main .legends div {
+.content .main .legends div {
   margin: 10px 0;
   float: left;
   width: 50%;
 }
 
-.container .main .legends div p {
+.content .main .legends div p {
   font-weight: bold;
 }
 
-.container .main ul.legend {
+.content .main ul.legend {
   list-style: none;
   margin-top: 10px;
 }
 
-.container .main ul.legend li {
+.content .main ul.legend li {
   display: inline-block;
   margin-right: 20px;
 }
 
-.container .main ul.legend li input[type="checkbox"] {
+.content .main ul.legend li input[type="checkbox"] {
   display: none;
 }
 
-.container .main ul.legend li label:before {
+.content .main ul.legend li label:before {
   content: "";
   display: inline-block;
   width: 15px;
@@ -136,17 +161,14 @@ li input[type="checkbox"]:checked + label.gray-6:before {
   background-color: #333;
 }
 
-.container .sidebar {
-  max-width: 500px;
+.content .sidebar {
+  width: 40%;
   height: 94%;
-  right: 3%;
-  bottom: 3%;
-  top: 3%;
-  margin: 3vw;
+  right: 0;
   position: absolute;
 }
 
-.container .sidebar .postit {
+.content .sidebar .postit {
   margin-bottom: 30px;
   color: white;
   font-weight: 200;
@@ -157,7 +179,7 @@ li input[type="checkbox"]:checked + label.gray-6:before {
   padding: 30px;
 }
 
-.container .sidebar .postit:before, .container .sidebar .postit:after {
+.content .sidebar .postit:before, .content .sidebar .postit:after {
 	position: absolute;
 	width: 40%;
 	height: 10px;
@@ -176,7 +198,7 @@ li input[type="checkbox"]:checked + label.gray-6:before {
 	z-index: -1;
 }
 
-.container .sidebar .postit:after {
+.content .sidebar .postit:after {
 	left: auto;
 	right: 12px;
 	-webkit-transform: skew(5deg) rotate(5deg);
@@ -186,48 +208,52 @@ li input[type="checkbox"]:checked + label.gray-6:before {
 	transform: skew(5deg) rotate(5deg);
 }
 
-.container .sidebar .postit .sub {
+.content .sidebar .postit:before, .content .sidebar .postit:after, .content .sidebar .postit {
+  transform: none;
+  box-shadow: none;
+}
+
+.content .sidebar .postit .sub {
   text-transform: uppercase;
 }
 
-.container .sidebar .postit h2 {
+.content .sidebar .postit h2 {
   font-weight: 600;
   color: #F0F0F0;
   margin-bottom: 10px;
 }
 
-.container .sidebar .postit .question {
+.content .sidebar .postit .question {
   margin-top: 10px;
   font-weight: normal;
   font-style: italic;
 }
 
-.container .sidebar .header {
+.content .sidebar .header {
   border-bottom: 1px solid #F0F0F0;
   margin: 10px 10px 10px 0;
 }
 
-.container .sidebar .related .header h3 {
-  /*font-weight: bold;*/
+.content .sidebar .related .header h3 {
   text-transform: uppercase;
   font-size: 12px;
   color: gray;
 }
 
-.container .sidebar .related h1 {
+.content .sidebar .related h1 {
   margin-top: 5px;
   font-weight: bold;
 }
 
-.container .sidebar .items {
+.content .sidebar .items {
   overflow: scroll;
   max-height: 400px;
 }
 
-.container .sidebar ul.items li {
+.content .sidebar ul.items li {
   padding: 10px;
 }
 
-.container .sidebar ul li:nth-child(even) {
+.content .sidebar ul li:nth-child(even) {
   background-color: #F0F0F0;
 }

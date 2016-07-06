@@ -1,5 +1,5 @@
 function showPostIt(point) {
-  var $postit = $('.container .sidebar .postit');
+  var $postit = $('.content .sidebar .postit');
 
   $postit.css('background-color', point.color);
 
