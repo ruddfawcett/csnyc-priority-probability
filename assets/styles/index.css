@@ -250,3 +250,15 @@ footer {
   padding: 24px 40px;
   color: white;
 }
+
+
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait), (max-width: 950px) {
+  .content .main, .content .sidebar {
+    width: 100%;
+  }
+
+  .content .main .wall {
+    width: 100%;
+  }
+}
