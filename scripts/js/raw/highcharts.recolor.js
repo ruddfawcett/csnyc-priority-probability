@@ -11,7 +11,6 @@ var colors = {
 };
 
 var groupColor = function(chart) {
-
   $('input[name=color-by]').change(function() {
     $('input[type="checkbox"]').each(function(i, checkbox) {
       $(checkbox).prop('checked', true);
