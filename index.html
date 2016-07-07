@@ -28,55 +28,64 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed quam id urna volutpat eleifend. Duis sed libero in ligula pellentesque aliquam semper vel justo. Duis lacinia elit eu nulla viverra viverra. Mauris lobortis vulputate lectus, at dictum nibh consequat vel. Duis elementum, lectus at dapibus fermentum, dui ex porttitor nibh, eu vehicula sapien mauris et orci. Aenean posuere eros purus, eget dictum diam commodo at. Aenean venenatis tortor et efficitur pellentesque. Nunc non leo a est vehicula sollicitudin vel sed metus. Fusce congue malesuada orci in gravida. Integer efficitur nunc erat, et cursus lacus pharetra ut. Praesent et magna risus. Duis in tortor sed mauris viverra ultrices. Phasellus sed tellus ut neque tincidunt blandit eu vel nunc.</p>
           <p>Cras elit arcu, aliquam a nulla sed, lobortis pellentesque massa. Aenean in accumsan dolor, ut feugiat nisi. Integer consequat sapien eget ligula lobortis, nec ullamcorper nisi dignissim. Praesent eros ante, tristique blandit pharetra non, consectetur ut quam. Cras eget vestibulum lacus, nec feugiat ex. Aliquam eu dictum mauris. Suspendisse non accumsan tortor, a rutrum lorem. Nullam sagittis, odio a dignissim ultrices, augue quam cursus nibh, eget facilisis ligula nisl at justo. Mauris at porta odio.</p>
         </section>
-        <section class='main'>
-          <div class='wall'></div>
-          <div class='legends'>
-            <div>
-              <p>Groups</p>
-              <ul class='legend group'></ul>
+        <section class='data'>
+          <section class='main'>
+            <div class='wall'></div>
+            <div class='legends'>
+              <div>
+                <p>Groups</p>
+                <ul class='legend group'></ul>
+              </div>
+              <div>
+                <p>Categories</p>
+                <ul class='legend category'></ul>
+              </div>
+              <div>
+                <p>Color By</p>
+                <ul class='legend'>
+                  <li><input id='by-group' name='color-by' data-coloring='group' type='radio' checked><label class='green' for='by-group'>Group</label></li>
+                  <li><input id='by-category' name='color-by' data-coloring='category' type='radio'><label class='' for='by-category'>Category</label></li>
+                </ul>
+              </div>
             </div>
-            <div>
-              <p>Categories</p>
-              <ul class='legend category'></ul>
+          </section>
+          <section class='sidebar'>
+            <div class='postit'>
+              <header>
+                <h2 class='series'>Group</h2>
+                <h5><span class='priority'>Priority</span> &bull; <span class='possibility'>Possibility</span></h5>
+              </header>
+              <p class='statement'>Group&rsquo;s statement...</p>
+              <p class='question'>Question?</p>
             </div>
-            <div>
-              <p>Color By</p>
-              <ul class='legend'>
-                <li><input id='by-group' name='color-by' data-coloring='group' type='radio' checked><label class='green' for='by-group'>Group</label></li>
-                <li><input id='by-category' name='color-by' data-coloring='category' type='radio'><label class='' for='by-category'>Category</label></li>
-              </ul>
+            <div class='related'>
+              <header>
+                <h1 class='category'>Category</h1>
+                <h3>Related brainstorming</h3>
+              </header>
+              <div class='scroll'>
+                <ul class='items default'>
+                  <li>Lorem ipsum</li>
+                  <li>Dolor sit amet</li>
+                  <li>Lorem ipsum</li>
+                  <li>Dolor sit amet</li>
+                  <li>Lorem ipsum</li>
+                  <li>Dolor sit amet</li>
+                </ul>
+              </div>
             </div>
-          </div>
+          </section>
+          <div class='clearfix' style='clear: both;'></div>
         </section>
-        <section class='sidebar'>
-          <div class='postit'>
-            <header>
-              <h2 class='series'>Group</h2>
-              <h5><span class='priority'>Priority</span> &bull; <span class='possibility'>Possibility</span></h5>
-            </header>
-            <p class='statement'>Group&rsquo;s statement...</p>
-            <p class='question'>Question?</p>
-          </div>
-          <div class='related'>
-            <header>
-              <h1 class='category'>Category</h1>
-              <h3>Related brainstorming</h3>
-            </header>
-            <div class='scroll'>
-              <ul class='items default'>
-                <li>Lorem ipsum</li>
-                <li>Dolor sit amet</li>
-                <li>Lorem ipsum</li>
-                <li>Dolor sit amet</li>
-                <li>Lorem ipsum</li>
-                <li>Dolor sit amet</li>
-              </ul>
-            </div>
-          </div>
+        <section class='about'>
+          <h1>Outro(?)<h1>
+          <h3>&hellip;</h3>
+          <p>Cras elit arcu, aliquam a nulla sed, lobortis pellentesque massa. Aenean in accumsan dolor, ut feugiat nisi. Integer consequat sapien eget ligula lobortis, nec ullamcorper nisi dignissim. Praesent eros ante, tristique blandit pharetra non, consectetur ut quam. Cras eget vestibulum lacus, nec feugiat ex. Aliquam eu dictum mauris. Suspendisse non accumsan tortor, a rutrum lorem. Nullam sagittis, odio a dignissim ultrices, augue quam cursus nibh, eget facilisis ligula nisl at justo. Mauris at porta odio.</p>
         </section>
       </div>
       <footer>
-        <h1>@CSNYC</h1>
+        <h1>CSNYC</h1>
+        <h1>social &bull; more &bull; scroll to top &bull; etc.</h1>
       </footer>
     </div>
 

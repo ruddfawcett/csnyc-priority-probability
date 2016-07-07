@@ -145,6 +145,10 @@ section.about p + p {
   margin-top: 20px;
 }
 
+section.data {
+  margin-bottom: 20px;
+}
+
 section.main {
   width: 60%;
   float: left;
