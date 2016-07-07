@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Avenir', 'PT Sans', sans-serif;
+  color: #31303a;
 }
 
 html, body {
@@ -24,49 +25,101 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: normal;
 }
 
-header {
-  max-width: 100%;
+header.main {
   background-color: #1b75bc;
-  padding: 24px 40px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
-header h1 {
+header.main nav {
+  padding: 24px 40px;
+  overflow: auto;
+}
+
+header.main nav .logo {
+  display: block;
+  float: left;
   font-size: 25px;
-  color: white;
   font-weight: 700;
+  color: #fff;
+}
+
+header.main nav ul {
+  display: block;
+  clear: none;
+  float: right;
+  position: relative;
+  top: 5px;
+}
+
+header.main nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 40px;
+  color: #FFF21F;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+header.main nav ul li>a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 0;
+  margin: 0 4px;
+  border-bottom: 1px solid transparent;
+}
+
+header.main nav ul li a:hover {
+  color: #FFF21F;
+  border-bottom: 1px solid #FFF21F;
 }
 
 .content {
   width: 96%;
+  top: 80px;
   position: relative;
   margin: 0 auto;
   padding-bottom: 100px;
   overflow: auto;
 }
 
-.content .about {
+section.about {
   margin: 40px 0;
-  background-color: #F0F0F0;
+  background-color: #F5F5F5;
   padding: 30px;
   border-radius: 3px;
 }
 
-.content .about p {
+section.about h1 {
+  font-weight: 700;
+  color: #31303a;
+  font-size: 44px;
+}
+
+section.about h3 {
+  color: #40A2DA;
+  margin-bottom: 10px;
+}
+
+section.about p {
   line-height: 22px;
   font-weight: 300;
 }
 
-.content .about p + p {
+section.about p + p {
   margin-top: 20px;
 }
 
-.content .main {
+section.main {
   width: 60%;
   float: left;
   height: 100%;
 }
 
-.content .main .wall {
+section.main .wall {
   height: 70%;
   max-height: 100%;
   width: 95%;
@@ -76,13 +129,13 @@ header h1 {
   border-radius: 3px;
 }
 
-.content .main .legends {
+section.main .legends {
   margin: 10px 0 20px 0;
   display: block;
   overflow: auto;
 }
 
-.content .main .legends p {
+section.main .legends p {
   font-weight: bold;
   display: inline-block;
   vertical-align: top;
@@ -90,16 +143,16 @@ header h1 {
   width: 90px;
 }
 
-.content .main .legends div {
+section.main .legends div {
   float: left;
 }
 
-.content .main ul.legend {
+section.main ul.legend {
   list-style: none;
   margin-top: 10px;
 }
 
-.content .main ul.legend {
+section.main ul.legend {
   display: inline-block;
   margin-right: 20px;
 }
@@ -108,7 +161,7 @@ li input[type='checkbox'], li input[type='radio'] {
   display: none;
 }
 
-.content .main ul.legend li label:before {
+section.main ul.legend li label:before {
   content: '';
   display: inline-block;
   width: 15px;
@@ -119,7 +172,7 @@ li input[type='checkbox'], li input[type='radio'] {
   border-radius: 3px;
 }
 
-.content .main ul.legend li input[type='radio']:checked + label:before {
+section.main ul.legend li input[type='radio']:checked + label:before {
   content: '✓';
   color: white;
   font-size: 14px;
@@ -186,61 +239,63 @@ li input[type='checkbox']:checked + label.gray-8:before {
   background-color: #111;
 }
 
-.content .sidebar {
+section.sidebar {
   width: 40%;
   float: left;
 }
 
-.content .sidebar .postit {
+section.sidebar .postit {
   background-color: #494949;
-  margin-bottom: 30px;
   color: white;
   font-weight: 200;
   border-radius: 3px;
   padding: 30px;
 }
 
-.content .sidebar .postit .sub {
+section.sidebar .postit header h5 {
   text-transform: uppercase;
 }
 
-.content .sidebar .postit h2 {
+section.sidebar .postit h2 {
   font-weight: 600;
 }
 
-.content .sidebar .postit .question {
+section.sidebar .postit .question {
   margin-top: 10px;
   font-weight: normal;
   font-style: italic;
 }
 
-.content .sidebar .header {
-  margin: 10px 10px 10px 0;
+section.sidebar .related header {
+  margin: 20px 10px 10px 0;
 }
 
-.content .sidebar .related .header h3 {
+section.sidebar .related h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+section.sidebar .related header h3 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
   color: #40A2DA;
 }
 
-.content .sidebar .related h1 {
-  font-weight: bold;
-}
-
-.content .sidebar .items {
+section.sidebar ul.items {
   border-top: 1px solid #f0f0f0;
   max-height: 400px;
   overflow: scroll;
 }
 
-.content .sidebar ul.items li {
+section.sidebar ul.items li {
   padding: 10px;
   border-radius: 3px;
+  font-weight: 300;
+  font-size: 16px;
 }
 
-.content .sidebar ul li:nth-child(even) {
+section.sidebar ul.items li:nth-child(even) {
   background-color: #F0F0F0;
 }
 
@@ -250,8 +305,6 @@ footer {
   padding: 24px 40px;
   color: white;
 }
-
-
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait), (max-width: 950px) {
   .content .main, .content .sidebar {
