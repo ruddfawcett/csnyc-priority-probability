@@ -77,9 +77,41 @@ header.main nav ul li a:hover {
   border-bottom: 1px solid #FFF21F;
 }
 
+section.hero {
+  margin: 60px 0;
+  /*top: 50px;
+  position: relative;*/
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  background-color: #1B75BC;
+  /*background: url(../../images/hero-bg.jpg) no-repeat top center;*/
+  background-size: cover;
+}
+
+section.hero h1 {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 80px;
+  color: white;
+}
+
+section.hero h3 {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+section.hero h5 {
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
 .content {
   width: 96%;
-  top: 80px;
+  padding: 0 2%;
   position: relative;
   margin: 0 auto;
   padding-bottom: 100px;
@@ -87,7 +119,7 @@ header.main nav ul li a:hover {
 }
 
 section.about {
-  margin: 40px 0;
+  margin-bottom: 40px;
   background-color: #F5F5F5;
   padding: 30px;
   border-radius: 3px;
@@ -252,6 +284,10 @@ section.sidebar .postit {
   padding: 30px;
 }
 
+section.sidebar .postit header {
+  margin-bottom: 10px;
+}
+
 section.sidebar .postit header h5 {
   text-transform: uppercase;
 }
@@ -292,6 +328,10 @@ section.sidebar ul.items li {
   border-radius: 3px;
   font-weight: 300;
   font-size: 16px;
+}
+
+section.sidebar ul.items li.bold {
+  font-weight: 500;
 }
 
 section.sidebar ul.items.default li:nth-child(even), section.sidebar ul.items li.gray {

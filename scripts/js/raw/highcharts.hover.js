@@ -29,6 +29,11 @@ function showRelated(point) {
   $.each(categoryData[point.csnyc_category], function(i, item) {
     var li = $('<li/>').text(item).appendTo($related);
 
+    // make questions stand out more
+    if (item.indexOf('?') > -1) {
+      li.addClass('bold');
+    }
+
     // even item
     if (i % 2 == 0) {
       li.addClass('gray');
