@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('Avenir-Black.eot') format('eot'),
+       url('Avenir-Black.otf') format('otf'),
+       url('Avenir-Black.svg') format('svg'),
+       url('Avenir-Black.ttf') format('ttf'),
+       url('Avenir-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('Avenir-Book.eot') format('eot'),
+       url('Avenir-Book.otf') format('otf'),
+       url('Avenir-Book.svg') format('svg'),
+       url('Avenir-Book.ttf') format('ttf'),
+       url('Avenir-Book.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('AvenirNext-Bold.eot') format('eot'),
+       url('AvenirNext-Bold.otf') format('otf'),
+       url('AvenirNext-Bold.svg') format('svg'),
+       url('AvenirNext-Bold.ttf') format('ttf'),
+       url('AvenirNext-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('AvenirNext-DemiBold.eot') format('eot'),
+       url('AvenirNext-DemiBold.otf') format('otf'),
+       url('AvenirNext-DemiBold.svg') format('svg'),
+       url('AvenirNext-DemiBold.ttf') format('ttf'),
+       url('AvenirNext-DemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('AvenirNext-Medium.eot') format('eot'),
+       url('AvenirNext-Medium.otf') format('otf'),
+       url('AvenirNext-Medium.svg') format('svg'),
+       url('AvenirNext-Medium.ttf') format('ttf'),
+       url('AvenirNext-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}

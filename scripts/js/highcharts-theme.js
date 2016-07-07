@@ -3,7 +3,7 @@ Highcharts.theme = {
   chart: {
     backgroundColor: null,
     style: {
-      fontFamily: '"PT Sans", "Lucida Grande", Lucida, Verdana, sans-serif'
+      fontFamily: '"Avenir", sans-serif, "PT Sans"'
     }
   },
   plotOptions: {
