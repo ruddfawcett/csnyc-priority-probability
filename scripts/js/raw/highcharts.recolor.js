@@ -12,11 +12,11 @@ var colors = {
 
 var groupColor = function(chart) {
   $('input[name=color-by]').change(function() {
-    $('input[type="checkbox"]').each(function(i, checkbox) {
-      $(checkbox).prop('checked', true);
-    });
-
     if ($(this).data('coloring') === 'group') {
+      $('ul.category input[type="checkbox"]').each(function(i, checkbox) {
+        $(checkbox).prop('checked', true);
+      });
+
       $('.legend.category li label').each(function(i, item) {
         $(item).addClass('gray-'+i).removeClass('color-'+i);
       });
@@ -53,7 +53,8 @@ var groupColor = function(chart) {
       $.each(chart.series, function(i, series) {
         $.each(series.points, function(j, point) {
           point.update({
-            marker:{
+            marker: {
+              radius: point.graphic.radius,
               fillColor: colors[point.csnyc_category],
               states: {
                 hover: {
