@@ -31,8 +31,22 @@
 
     // Sort data into groups and format each response
     foreach ($data as $response) {
-      $x_jitter = $response[0] + mt_rand(-0.5, mt_getrandmax() - 0.7) / mt_getrandmax();
-      $y_jitter = $response[1] + mt_rand(-0.5, mt_getrandmax() - 0.5) / mt_getrandmax();
+
+      $x_jitter = $response[0] + mt_rand(-0.2, mt_getrandmax() - 0.2) / mt_getrandmax();
+      $y_jitter = $response[1] + mt_rand(-0.4, mt_getrandmax() - 0.4) / mt_getrandmax();
+
+      if ($x_jitter <= 1) {
+        $x_jitter -= mt_rand(0, mt_getrandmax() - 0.3) / mt_getrandmax();
+      }
+      else if ($x_jitter >= 7.5) {
+        $x_jitter -= mt_rand(0, mt_getrandmax() - 0.5) / mt_getrandmax();
+      }
+      else if ($y_jitter <= 0) {
+        $y_jitter = 0 + mt_rand(0, mt_getrandmax() - 0.3) / mt_getrandmax();
+      }
+      else if ($y_jitter >= 7.5) {
+        $y_jitter -= mt_rand(0, mt_getrandmax() - 0.5) / mt_getrandmax();
+      }
 
       $pretty_response = [
         'x' => $x_jitter,
@@ -51,7 +65,7 @@
 
     // make groups prettier
     // https://github.com/voronianski/oceanic-next-color-scheme#color-palette
-    $colors = ['#EA0B8C', '#896BDD','#F79520','#8EC640', '#7AE63E','#0E76BC', '#EA376F', '#70C5C6', '#FFFFA5'];
+    $colors = ['#40A2DA', '#33BEB7','#AFC222','#FDCC2E', '#F7A126','#F56121', '#DB3937', '#EE6579', '#A363DA'];
     foreach ($groups as $group => $data) {
       $pretty_group = [
         'name' => 'Group '.$group,
