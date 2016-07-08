@@ -1,12 +1,12 @@
 Priority,Possibility,Group,CSNYC Category,Statement,Attached Questions
 1,1,7,Sustainability & Scale,Measuring Fidelity at Scale,
 1,1,6,Teacher Development,"Prepared, engaged, teachers",
-1,4,5,Research and Evaluation,Evaluation and Research,
+1,4,5,Research & Evaluation,Evaluation and Research,
 1,2,6,Community,Building Connections,
 1,3,6,Implementation,Implementation,What do meaningful CS experiences look like across K-12 and how do you bring them to all students?
 1,6,3,Teacher Development,Professional Development,
 1,4,8,Equity,Equity,
-1,4,4,Research and Evaluation,Evaluation/Measurement,How do we reliably and validly measure characteristics and outcomes from bringing CS to all?
+1,4,4,Research & Evaluation,Evaluation/Measurement,How do we reliably and validly measure characteristics and outcomes from bringing CS to all?
 1,6,9,Community,Communication/Onboarding,
 1,6,7,Community,Buy In,
 1,6,7,Curriculum,Benchmarks/Curriculum,To what extent does teacher training impact how CS is implemented in classrooms?
@@ -16,12 +16,12 @@ Priority,Possibility,Group,CSNYC Category,Statement,Attached Questions
 2,4,8,Implementation,Change,
 2,4,2,Curriculum,Curriculum ,"Integration and progression, What are models and examples of curriculum integration and how effective are they? How are educators in different kinds of programs measuring success? When are integration models appropriate? When are the CS focused experiences appropriate?"
 2,5,9,Teacher Development,Professional Development,
-2,6,5,Research and Evaluation,Data and Assessment,
+2,6,5,Research & Evaluation,Data and Assessment,
 2,8,5,Community,International CS Perspective,
 2,8,3,Equity,Equity,Which curricula have largest impacts on URM student engagement (at each grade band)?
 3,0,6,Curriculum,Creating Common Definitions,"Computational Thinking, ""Unit"" of CS - What is it? "
 3,0,4,Sustainability & Scale,Sustainability,"What are the impacts of different approaches to bring CS to schools? (embeded vs stand alone, content, learning, PD, college, etc.)"
-3,2,8,Research and Evaluation,Measures,
+3,2,8,Research & Evaluation,Measures,
 3,1,9,Sustainability & Scale,Sustainability,
 3,3,5,Teacher Development,CS Pedagogy,
 3,4,5,Implementation,Implementation and Sustainability,
@@ -34,7 +34,7 @@ Priority,Possibility,Group,CSNYC Category,Statement,Attached Questions
 4,7,8,Curriculum,Define Meaningful,
 4,6,1,Teacher Development,Teacher PD,What formats of teacher PD do teachers find most helpful in bulding their CS knowledge? What common pedagogical practices in CS are critical to scale CS4All?
 4,4,2,Sustainability & Scale,Scalability,"Scalability and development of teacher development and recruitment, What are different models for scaling PD? The benefits and limitations of these models? What are stumbling blocks in scaling up CS4All beyond the ""first responders"""
-4,8,7,Research and Evaluation,Data Collection,To what extent does exposure to CS impact students' future school choices? ES -> MS -> HS -> College
+4,8,7,Research & Evaluation,Data Collection,To what extent does exposure to CS impact students' future school choices? ES -> MS -> HS -> College
 5,2,7,Sustainability & Scale,Sustainability,
 5,3,8,Implementation,Within City Collaboration,
 6,5,4,Teacher Development,Teachers,"How do you get a teacher who teaches CS in every school? Approach to PD, Ongoing support and community, recruitment"
@@ -42,13 +42,13 @@ Priority,Possibility,Group,CSNYC Category,Statement,Attached Questions
 6,2,1,Equity,Equity  ,"What percentage of under-represented population students enroll in APCSP, take the AP exam, and receive a passing score?"
 7,8,7,Teacher Development,Teacher Training,"To what exetent does CS4All teacher training result in increased access to CS in NYC schools, diverse schools, under-resourced schools"
 7,7,2,Implementation,"Starting with students, identities strengths, challenges, interests","In what ways and how does CS connect with student identities, strengths challenges, and interests? What are the outcomes of programs that intentionally draw on strudents backgrounds and interests"
-7,5,9,Research and Evaluation,Research and Theory,
+7,5,9,Research & Evaluation,Research and Theory,
 7,4,5,Teacher Development,Inservice Teacher PD,
 7,2,5,Teacher Development,Preservice Teacher Education,
 7,2,3,Sustainability & Scale,Scale,To what extent have we met the conditions for scalability?
 8,5,2,Equity,Supporting Underrepresented Groups/BP,What supports are needed/What are the unique strengths of CS teachers of color? What are the strengths and challenges of different subgroups of students in CS Ed?
 8,4,7,Equity,Equity and Access,To what extent does the diversity of teachers trained in CS impact the enrollment/success of minority students
-8,4,4,Research and Evaluation,Students,How does requiring CS influence student participation in future CS experiences
+8,4,4,Research & Evaluation,Students,How does requiring CS influence student participation in future CS experiences
 8,1,3,Implementation,Pathways,What are the CS Education and Career Pathways for student groups?
 8,1,2,Equity,Connection between equity and ideology,What are the most prominent idologies? How are they manifested in pedagogy/curriculum?
 8,1,1,Sustainability & Scale,Sustainability,"In 10 years, how institutionalized is CS education at the individual school level? At the district level?"
