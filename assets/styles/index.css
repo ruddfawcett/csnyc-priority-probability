@@ -85,7 +85,7 @@ section.hero {
   padding: 100px 0;
   text-align: center;
   background-color: #1B75BC;
-  /*background: url(../../images/hero-bg.jpg) no-repeat top center;*/
+  background: url(../../images/hero-bg.jpg) no-repeat top center;
   background-size: cover;
 }
 
