@@ -1,7 +1,7 @@
 function showPostIt(point) {
   var $postit = $('.content .sidebar .postit');
 
-  $postit.css('background-color', point.pointAttr.hover.fill);
+  $postit.css('background-color', point.color);
 
   $postit.find('.series').text(point.series.name);
   $postit.find('.possibility').text('Possibility ' + point.possibility);
@@ -41,7 +41,7 @@ function showRelated(point) {
   });
 
   $('.sidebar .related .category').text(point.csnyc_category);
-  $('.sidebar .related h3').css('color', point.pointAttr.hover.fill);
+  $('.sidebar .related h3').css('color', point.color);
 
   $('.scroll').trigger('forwardHover');
 }
